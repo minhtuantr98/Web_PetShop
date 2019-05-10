@@ -1,0 +1,436 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+/* Header */
+#header {
+	position: relative; 
+}
+#slide {
+	padding: 0;
+}
+
+#search form{
+/* 	position: absolute;
+	right: 0; */
+	float: right;
+	box-shadow: 2px 2px 2px;
+}
+#search input{
+	border-radius: 0 ;
+}
+#search button{
+	border-radius: 0 ;
+}
+#top { /* di chuyển cả khối top đè lên slide */
+	position: absolute; 
+	top: 0;
+	left: 104.5px;
+}
+#menu ul {
+	line-height: 50px;
+}
+#menu ul li{
+	float: left;
+	width: 16.6%;
+	list-style: none;
+	text-align: right;
+}
+#menu ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: arial;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 2px 2px 2px black;
+}
+#menu ul li:first-child a{
+	color: #fab801;
+}
+#cart img {
+	width: 40px;
+	height: 40px;
+}
+#con {
+	display: none;
+}
+/* Content-1 */
+.products h4 {
+	text-align: center;
+	font-weight: bold;
+	padding: 30px 0;
+	text-transform: uppercase;
+}
+.product-item {
+	margin: 10px !important;
+}
+.product-item span {
+	color: #43b094;
+	font-weight: bold;
+}
+.product-item h6 a {
+	color: #373737;
+	font-size: 11px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.imagep { /* class chỉnh ảnh sản phẩm */
+	width: 100px;
+	height: 190px;
+	padding-top: 20px;
+}
+.star { /* class chỉnh ảnh đánh giá sản phẩm */
+	width: 60px;
+	height: 15px;
+}
+#banner {
+	background-color: #21deca;
+	margin-top: 106px;
+	margin-bottom: 10px;
+}
+#banner input {
+	position: absolute;
+	left: 55px;
+	top: 400px;
+	width: 70%;
+	height: 32px;
+}
+#banner input::placeholder {
+	color: #4f4f4f;
+	text-align: center;
+	font-style: italic;
+	font-size: 12px;
+}
+#banner button {
+	position: absolute;
+	left: 100px;
+	top: 440px;
+	width: 45%;
+	background-color: #2e2e2e;
+	border-radius: 0;
+	font-weight: bold;
+}
+/* Content-2 */
+.icon-p {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 35%;
+	opacity: 0;
+	transition: opacity .7s;
+}
+.product-item:hover .icon-p{
+	opacity: 1;
+}
+.icon-p-1 {
+	top: 20%;
+}
+.icon-p-2 {
+	top: 40%;
+}
+.icon-p-3 {
+	top: 60%;
+}
+/* Catalog */
+#catalog {
+	background-color: #d8d7d7;
+	margin: 40px 0;
+}
+.imagec {
+	width: 153px;
+	height: 153px;
+	margin: 40px 13px ;
+}
+/* Aside-1 */
+#aside h4 {
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	padding : 30px 0;
+}
+/* Aside-2 */
+#aside-2 {
+	margin-bottom: 20px;
+}
+#aside-2 h4 {
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	padding : 30px 0;
+}
+.card {
+	border: none; 
+}
+.news-item {
+	text-align: center;
+}
+.news-item h5 a{
+	color: #02867b;
+	font-size: 11px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.news-item p {
+	font-size: 8px;
+	color : #8d8d8d;
+	text-align: justify;
+}
+.news-bot {
+	background-color: #02867b ;
+	width: 100%;
+	height: 30px;
+	opacity: 0.5;
+	position: absolute;
+	top: 145px;
+}
+.news-bot img{
+	float: left;
+	height: 20px;
+	margin : 5px ;
+}
+.news-bot span {
+	float: left;
+	font-size: 13px;
+	color: white;
+	margin: 5px;
+}
+.news-bot p {
+	float: right;
+	margin: 5px;
+	color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+/* Aside-3 */
+#aside-3 {
+	background-color:  #d8d7d7;
+	border-bottom: 10px solid #21deca;
+}
+
+#aside-3 span {
+	color: #262626;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+#aside-3 p {
+	color: #494949;
+	font-size: 10px;
+	margin-bottom: 5px;
+}
+.icon-bot {
+	width: 70px;
+	height: 35px;
+	margin: 10px 0;
+}
+.ke-soc {
+	height: 100px;
+	position: absolute;
+	right: -30px;
+	top: 0px;
+}
+/* footer  */
+#footer {
+	background-color: #1e2322;
+}
+#footer h4{
+		color: white;
+		text-transform: uppercase;
+}
+#footer p {
+	color: white;
+	text-transform: capitalize;
+	margin-bottom: 0;
+}
+#footer span {
+	padding-bottom: 1px;
+	border-bottom: 1px solid #cdcdcd;
+}
+#logo-f img{
+		margin-top: 50px;
+		margin-bottom: 10px;
+		width: 250px;
+		height: 50px;
+}
+.info-f img{
+	margin-right: 10px;
+	float: left;
+	height: 20px;
+	width: 20px;
+}
+#support {
+	padding-left: 70px;
+}
+#mxh {
+	width: 270px;
+	float: right;
+}
+#connect h4 {
+	float: right;
+}
+#mainbroad {
+	position: relative;
+	z-index: 997;
+}
+
+#popup-full {
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	background: gray;
+	position: fixed;
+
+}
+/* Pop-up  */
+#popup-main {
+	position: fixed;
+	z-index: 1000;
+	margin-top: 15%;
+	margin-left: 50%;
+	transform: translate(-50%, 0)
+}
+
+#popup-main span img {
+	width: 500px;
+	height: 300px;
+}
+
+#popup-main button {
+	width: 50px;
+	height: 50px;
+	background: black;
+	color: red;
+	font-size: 30px;
+	border-radius: 100%;
+	position: absolute;
+	top: -20px;
+	right: -20px;
+}
+/* Scroll-top  */
+.scroll-top {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 25px;
+	right: 20px;
+	display: none;
+	z-index: 998;
+}
+
+.scroll-top i {
+	display: inline-block;
+	color: #FFFFFF;
+}
+/* Tùy chỉnh cho reponsive */
+@media only screen and (min-width:576px) and (max-width:768px) {
+	#support {
+		padding-left: 15px;
+	}
+	#mxh {
+		float: left;
+	}
+	#connect h4 {
+	float: left;
+	}
+	.ke-soc {
+		display: none;
+	}
+	.news-bot {
+		position: absolute;
+		top: 43px;
+	}
+	.imagec {
+		height: 100px;
+		width: 100px;
+		margin: 25px 12px;
+	}
+	#banner input {
+		position: absolute;
+		left: 80px;
+		top: 550px;
+	}
+	#banner button {
+		position: absolute;
+		left: 150px;
+		top: 600px;
+	}
+	#carouselExampleIndicators {
+		display: none;
+	}
+	#top {
+		position: relative;
+		left: 0;
+	}
+	#search form {
+		float: left;
+		margin-top: -25px;
+		width: 80%;
+	}
+	#search input {
+		width: 90%;
+	}
+	#search button {
+		width: 10%;
+	}
+	#cart img {
+		height: 40px;
+		width: 40px ;
+		margin-top : -40px;
+	}
+	#menu ul {
+		line-height: 40px;
+	}
+	#menu ul li{
+		text-align: center;
+
+		}
+	#menu ul li a {
+		font-size: 10px;
+		}	
+	#menu ul li:first-child a{
+		color: #fab801;
+	}
+	#header {
+		background-color: #21deca;
+	}
+	.news-bot img {
+		height: 10px;
+		margin-top: 7px;
+	}
+	.news-bot span {
+		font-size: 10px;
+	}
+	#con {
+	position: absolute;
+	top: 20px;
+	right: 60px;
+	display: block;
+	}
+}
+@media only screen and (max-width: 575px)
+{
+	#support {
+		padding-left: 15px;
+	}
+	#mxh {
+		float: left;
+	}
+	#connect h4 {
+	float: left;
+	}
+	.ke-soc {
+		display: none;
+	}
+	.news-bot {
+		position: absolute;
+		top: 245px;
+	}
+	.imagec {
+		height: 70px;
+		width: 70px;
+		margin: 15px 12px;
+}
